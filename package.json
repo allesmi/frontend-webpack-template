@@ -1,0 +1,25 @@
+{
+  "name": "frontend-webpack-template",
+  "version": "0.0.1",
+  "private": true,
+  "description": "An opinionated template for webpack-based frontend web project",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allesmi/frontend-webpack-template.git"
+  },
+  "keywords": [
+    "frontend",
+    "webpack",
+    "template"
+  ],
+  "author": "Alexander Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allesmi/frontend-webpack-template/issues"
+  },
+  "homepage": "https://github.com/allesmi/frontend-webpack-template#readme"
+}
