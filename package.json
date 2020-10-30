@@ -5,7 +5,9 @@
   "description": "An opinionated template for webpack-based frontend web project",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.config.dev.js",
+    "build:prod": "webpack --config build/webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "css-loader": "^5.0.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.3.2",
-    "webpack-cli": "^4.1.0"
+    "webpack-cli": "^4.1.0",
+    "webpack-merge": "^5.2.0"
   }
 }
